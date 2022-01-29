@@ -1,0 +1,24 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.GuiChat
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  showname = true
+  orientation = top-left
+  crouching = false
+  x = 935
+  slim = false
+  actionid = 4f5f9516-6bc1-4196-ad60-8ac0b324a0671629301673189
+  action = addentity
+  y = 571
+  scale = 30
+  playername = %playername%
+  parrot = false
+}
+

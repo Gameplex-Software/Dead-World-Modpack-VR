@@ -1,0 +1,178 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.GuiMainMenu
+  randomgroup = 1
+  renderorder = background
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  name = name_of_your_panorama
+  action = setbackgroundpanorama
+}
+
+customization {
+  path = config/fancymenu/music/menumusic.wav
+  loop = true
+  action = addaudio
+}
+
+customization {
+  path = resources/titlered.png
+  orientation = top-centered
+  x = -237
+  width = 474
+  actionid = 6d7df730-61b9-4d81-90cf-10e9c36dd6fd1629295569611
+  action = addtexture
+  y = 27
+  height = 62
+}
+
+customization {
+  path = resources/overlay.png
+  orientation = mid-right
+  x = -112
+  width = 116
+  actionid = cd9d818e-fb22-41ff-b645-80435df1f1e61629308024169
+  action = addtexture
+  y = -109
+  height = 120
+}
+
+customization {
+  orientation = mid-right
+  shadow = false
+  x = -76
+  actionid = 7edcb949-4236-456c-bb3f-7ec7bcd8d29b1629308063171
+  action = addtext
+  y = -106
+  scale = 1.0
+  alignment = left
+  value = Developer
+}
+
+customization {
+  showname = true
+  orientation = mid-right
+  crouching = false
+  x = -94
+  slim = false
+  actionid = 156763d3-0601-4c7d-9845-8007949f15031629308082168
+  action = addentity
+  y = -31
+  scale = 30
+  playername = TristanPoland
+  parrot = false
+}
+
+customization {
+  orientation = mid-right
+  shadow = false
+  x = -80
+  actionid = c63d661f-8fff-487d-9046-a8b69f908b621629308117964
+  action = addtext
+  y = -84
+  scale = 1.0
+  alignment = left
+  value = Tristan Poland
+}
+
+customization {
+  orientation = mid-right
+  buttonaction = opencustomgui
+  x = -74
+  width = 64
+  actionid = 8532d010-433d-40b2-b4b6-5801f64fcb2a1632175869665
+  action = addbutton
+  y = -51
+  label = About
+  value = about_tristanpoland
+  height = 20
+}
+
+customization {
+  orientation = mid-centered
+  shadow = false
+  x = -94
+  actionid = bb41573e-9e2a-408f-b033-5d56adc4f2641629308368671
+  action = addtext
+  y = -89
+  scale = 1.0
+  alignment = left
+  value = Welcome to Dead World %playername%!
+}
+
+customization {
+  orientation = bottom-left
+  shadow = false
+  x = 5
+  actionid = e9e7aef8-6a13-4cc7-bd71-302eb7c209931629309070334
+  action = addtext
+  y = -12
+  scale = 1.0
+  alignment = left
+  value = Dead World Version 1.0.0 Powered by: Forge (%loadedmods%/%totalmods% mods active)
+}
+
+customization {
+  identifier = %id=400346%
+  orientation = mid-centered
+  x = -100
+  action = movebutton
+  y = -29
+}
+
+customization {
+  identifier = %id=400346%
+  width = 200
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=502346%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=400382%
+  orientation = mid-centered
+  x = -100
+  action = movebutton
+  y = 1
+}
+
+customization {
+  identifier = %id=502382%
+  orientation = mid-centered
+  x = 2
+  action = movebutton
+  y = 1
+}
+
+customization {
+  identifier = %id=376382%
+  orientation = mid-centered
+  x = -125
+  action = movebutton
+  y = -53
+}
+
+customization {
+  identifier = %id=400298%
+  orientation = mid-centered
+  x = -100
+  action = movebutton
+  y = -77
+}
+
+customization {
+  identifier = %id=400322%
+  orientation = mid-centered
+  x = -100
+  action = movebutton
+  y = -53
+}
+

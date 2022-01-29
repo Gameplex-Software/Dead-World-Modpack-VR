@@ -1,0 +1,11 @@
+{
+  "inventory": {
+    "0:7": "minecraft:torch",
+    "0:0": "opencomputers:tool,1,4",
+    "0:6": "travelersbackpack:travelers_backpack",
+    "0:1": "tconstruct:book",
+    "0:3": "minecraft:writable_book,1,0,{pages:[\"Where am I?\n\nWhat is this place?\n\nThe bunker?\n\nOh no, I have to get outside!\n\n\"]}",
+    "0:8": "minecraft:cooked_porkchop,5",
+    "0:2": "immersiveengineering:tool,1,3"
+  }
+}

@@ -1,0 +1,73 @@
+type = menu
+
+customization-meta {
+  identifier = about_tristanpoland
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  name = name_of_your_panorama
+  action = setbackgroundpanorama
+}
+
+customization {
+  path = resources/minecraft-make-book-and-quill-step-1.png
+  orientation = mid-centered
+  x = -191
+  width = 382
+  actionid = 1513e42c-b13d-4522-ba49-dc0409cc138b1629308685037
+  action = addtexture
+  y = -180
+  height = 360
+}
+
+customization {
+  path = resources/creators/tristanpoland.png
+  orientation = mid-centered
+  x = -180
+  width = 35
+  actionid = 31471ae4-adf9-4567-b83a-d86223f202851629308685037
+  action = addtexture
+  y = -169
+  height = 35
+}
+
+customization {
+  orientation = mid-centered
+  shadow = false
+  x = -140
+  actionid = 02974eaa-5861-4771-b97c-f7d531d42cf41629308685038
+  action = addtext
+  y = -155
+  scale = 1.0
+  alignment = left
+  value = Tristan Poland
+}
+
+customization {
+  path = resources/creators/about_tristanpoland.png
+  orientation = mid-centered
+  x = -178
+  width = 355
+  actionid = 08e3976c-dabe-4f17-b160-e56745ef22c51629308685038
+  action = addtexture
+  y = -126
+  height = 122
+}
+
+customization {
+  orientation = mid-centered
+  buttonaction = closegui
+  x = -45
+  width = 100
+  actionid = c466d5e9-a4c0-42b5-91f1-a117170daba51629308765136
+  action = addbutton
+  y = 151
+  label = Close Profile
+  value = Credits
+  height = 20
+}
+
